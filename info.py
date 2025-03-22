@@ -88,18 +88,18 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+ZGttiqb6CelhOGI1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+9uVQGejDS3szNzQ9')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+ZGttiqb6CelhOGI1') # Support Chat Link Without https:// or @
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/+ZGttiqb6CelhOGI1')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+5NUKNyFUMUtlYTVl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+nLudREjv5DM1ZmJl')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+5NUKNyFUMUtlYTVl') # Support Chat Link Without https:// or @
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/urweebboii')
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
 PM_SEARCH = bool(environ.get('PM_SEARCH', False))
 BUTTON_MODE = bool(environ.get('BUTTON_MODE', True))
 MAX_BTN = bool(environ.get('MAX_BTN', True))
-IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
-IMDB = bool(environ.get('IMDB', False))
+IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
+IMDB = bool(environ.get('IMDB', True))
 AUTO_FFILTER = bool(environ.get('AUTO_FFILTER', True))
 AUTO_DELETE = bool(environ.get('AUTO_DELETE', True))
 LONG_IMDB_DESCRIPTION = bool(environ.get("LONG_IMDB_DESCRIPTION", False))
@@ -126,13 +126,13 @@ VERIFY_SND_SHORTLINK_API = environ.get('VERIFY_SND_SHORTLINK_API', '')
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'arlinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c0faab1f5c6e9d47a38356b93ccc278fe27f5672')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/tutorialshortlinks/7') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'shortner.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'fbb3485ef79f792a407ec9b8f0837d60bb91e032')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/crackzonetutorials/56') # How Open Shortner Link Video Link , Channel Link Where You Upload Your Video.
 
 
 # Others
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 1500))
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello My Dear Friends ❤️')
