@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', '25471015'))
 API_HASH = environ.get('API_HASH', '0ab2955ad5b1a913e220800b5fc5db36')
-BOT_TOKEN = environ.get('BOT_TOKEN', "")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7743734686:AAE2v9cPwoBT4CkwuYiqtG6lBjutqarEAOk")
 
 
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
@@ -89,7 +89,7 @@ PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Us
 
 # Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+lL1oNFXO9JxhM2Jl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+nLudREjv5DM1ZmJl')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+vcL5txDra1JmNmE1')
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+lL1oNFXO9JxhM2Jl') # Support Chat Link Without https:// or @
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/urweebboii')
 
